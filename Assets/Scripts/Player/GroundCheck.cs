@@ -17,10 +17,10 @@ public class GroundCheck : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _isGrounded = RayCheck(_rayDir, _rayDistance, _groundLayer) ? true : false;
+        _isGrounded = RayCastCheck(_rayDir, _rayDistance, _groundLayer) ? true : false;
     }
 
-    private RaycastHit2D RayCheck(Vector2 rayDirection, float rayDistance, LayerMask groundLayerMask)
+    private RaycastHit2D RayCastCheck(Vector2 rayDirection, float rayDistance, LayerMask groundLayerMask)
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, rayDirection, rayDistance, groundLayerMask);
 

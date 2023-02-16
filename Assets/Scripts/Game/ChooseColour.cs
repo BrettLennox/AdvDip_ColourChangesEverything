@@ -36,10 +36,10 @@ public class ChooseColour : MonoBehaviour
         {
             if (!_newColourChosen)
             {
-                _newColour = (Colours)Random.Range(0, 3);
+                SelectRandomColour();
                 if (_newColour == _chosenColour)
                 {
-                    _newColour = (Colours)Random.Range(0, 3);
+                    SelectRandomColour();
                 }
                 else
                 {
@@ -48,6 +48,11 @@ public class ChooseColour : MonoBehaviour
             }
             
         }
+    }
+
+    private void SelectRandomColour()
+    {
+        _newColour = (Colours)Random.Range(0, 4);
     }
 
     private void FixedUpdate()
