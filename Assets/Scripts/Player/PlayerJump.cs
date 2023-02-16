@@ -10,6 +10,7 @@ public class PlayerJump : MonoBehaviour
     [SerializeField] [Range(10,100)] private float _jumpMultiplier;
     private float _hiddenJumpMultiplier;
     private GroundCheck _groundCheck;
+    private PlayerAnimator _playerAnimator;
     #endregion
     #region Properties
 
@@ -18,12 +19,14 @@ public class PlayerJump : MonoBehaviour
     private void Awake()
     {
         _groundCheck = GetComponent<GroundCheck>();
+        _playerAnimator = GetComponentInChildren<PlayerAnimator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         _hiddenJumpMultiplier = _jumpMultiplier * 10;
+        _playerAnimator.IsGrounded = _groundCheck.IsGrounded;
 
         if (Input.GetKeyDown(KeyCode.Space) && _groundCheck.IsGrounded)
         {
