@@ -21,6 +21,7 @@ public class GroundCheck : MonoBehaviour
     void FixedUpdate()
     {
         _isGrounded = RayCastCheck(_rayOrigin.position, _rayDir, _rayDistance, _groundLayer) ? true : false;
+        Debug.Log(_isGrounded);
     }
 
     private RaycastHit2D RayCastCheck(Vector2 origin, Vector2 rayDirection, float rayDistance, LayerMask groundLayerMask)
