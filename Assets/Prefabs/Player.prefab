@@ -249,9 +249,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e0cee2714e0bbe4f9000a75a75e15e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rayOrigin: {x: 0, y: -1}
-  _rayDistance: 1.5
+  _rayOrigin: {fileID: 3306707716136605745}
   _rayDir: {x: 0, y: -1}
+  _rayDistance: 0.5
   _groundLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -315,9 +315,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e0cee2714e0bbe4f9000a75a75e15e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rayOrigin: {x: 0, y: 0}
-  _rayDistance: 0
+  _rayOrigin: {fileID: 0}
   _rayDir: {x: 0, y: 0}
+  _rayDistance: 0
   _groundLayer:
     serializedVersion: 2
     m_Bits: 0
