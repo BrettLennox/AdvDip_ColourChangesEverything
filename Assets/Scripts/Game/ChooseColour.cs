@@ -8,14 +8,14 @@ public class ChooseColour : MonoBehaviour
 
     #region Variables
     [SerializeField] private Colours _chosenColour;
-    [SerializeField] private Colours _newColour;
-    [SerializeField] private bool _newColourChosen;
-    [SerializeField] private float _timer = Mathf.Infinity;
-    [SerializeField] private float _changeColourDelay = 2f;
+    //[SerializeField] private Colours _newColour;
+    //[SerializeField] private bool _newColourChosen;
+    //[SerializeField] private float _timer = Mathf.Infinity;
+    //[SerializeField] private float _changeColourDelay = 2f;
     #endregion
     #region Properties
     public Colours ChosenColour { get => _chosenColour; }
-    public Colours NewColour { get => _newColour; }
+    //public Colours NewColour { get => _newColour; }
     #endregion
 
     private void Awake()
@@ -26,37 +26,26 @@ public class ChooseColour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_timer >= _changeColourDelay)
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            _chosenColour = _newColour;
-            _newColourChosen = false;
-            _timer = 0;
+            SetColour(Colours.Red);
         }
-        else
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            if (!_newColourChosen)
-            {
-                SelectRandomColour();
-                if (_newColour == _chosenColour)
-                {
-                    SelectRandomColour();
-                }
-                else
-                {
-                    _newColourChosen = true;
-                }
-            }
-            
+            SetColour( Colours.Yellow);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            SetColour(Colours.Green);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            SetColour(Colours.Blue);
         }
     }
 
-    private void SelectRandomColour()
+    private void SetColour(Colours colour)
     {
-        _newColour = (Colours)Random.Range(0, 4);
-    }
-
-    private void FixedUpdate()
-    {
-        _timer += Time.deltaTime;
+        _chosenColour = colour;
     }
 }

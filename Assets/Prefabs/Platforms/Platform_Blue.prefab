@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 89930365836037462}
+  - component: {fileID: 3804051215711212830}
   - component: {fileID: 89930365836037467}
-  - component: {fileID: 89930365836037460}
   - component: {fileID: 7791630807341565891}
   m_Layer: 3
   m_Name: Platform_Blue
@@ -34,6 +34,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3804051215711212830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89930365836037463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3101e6d52a9058445a7ab41417646c63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objectColour: 3
+  _spriteRenderer: {fileID: 89930365836037467}
+  _collider: {fileID: 7791630807341565891}
 --- !u!212 &89930365836037467
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -86,24 +101,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &89930365836037460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 89930365836037463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9505bfdaf695ade46ad8b0b086c00831, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _objectColour: 3
-  _spriteRenderer: {fileID: 89930365836037467}
-  _activeColour: {r: 0, g: 0.5773263, b: 1, a: 1}
-  _inactiveColour: {r: 0, g: 0.5764706, b: 1, a: 0.49019608}
-  _collider: {fileID: 7791630807341565891}
-  _chosenNumber: 0
 --- !u!61 &7791630807341565891
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(GroundCheck))]
+[RequireComponent(typeof(PlayerGroundCheck))]
 public class PlayerJump : MonoBehaviour
 {
     #region Variables

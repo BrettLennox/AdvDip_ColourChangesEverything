@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.38, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -111,7 +111,7 @@ Transform:
   m_GameObject: {fileID: 1728981498060707035}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1728981499309067989}
@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 1728981499309067989}
   - component: {fileID: 1728981499309067946}
   - component: {fileID: 1728981499309067944}
-  - component: {fileID: 1728981499309067950}
+  - component: {fileID: 4251709519408227422}
   - component: {fileID: 7707064983503534103}
   - component: {fileID: 1728981499309067988}
   - component: {fileID: 1728981499309067947}
@@ -241,10 +241,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28db673e8979b574eaaa57d3068156e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 3
+  _speed: 5
   _moveDir: {x: 0, y: 0}
-  _smoothMoveDir: {x: 0, y: 0}
-  _smoothStep: 1
+  _smoothStep: 5
+  _previousXDir: 1
+  _previousMoveVelocity: {x: 0, y: 0}
+  _changedDirectionMidJump: 0
   _spriteRenderer: {fileID: 1728981498060707033}
 --- !u!114 &1728981499309067944
 MonoBehaviour:
@@ -260,7 +262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rb: {fileID: 1728981499309067947}
   _jumpMultiplier: 31
---- !u!114 &1728981499309067950
+--- !u!114 &4251709519408227422
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -269,16 +271,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1728981499309067991}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e0cee2714e0bbe4f9000a75a75e15e4, type: 3}
+  m_Script: {fileID: 11500000, guid: 84298006261d9e14cb0ea0cf21107401, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rayOrigin: {fileID: 3306707716136605745}
-  _rayDir: {x: 0, y: -1}
-  _rayDistance: 0.5
-  _groundLayer:
+  groundRayOrigin: {fileID: 3306707716136605745}
+  groundRayDir: {x: 0, y: -1}
+  groundRayDistance: 0.25
+  groundLayer:
     serializedVersion: 2
     m_Bits: 8
-  _isGrounded: 0
+  isGrounded: 0
 --- !u!114 &7707064983503534103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,7 +320,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!50 &1728981499309067947
 Rigidbody2D:
