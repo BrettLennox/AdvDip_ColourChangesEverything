@@ -7,6 +7,7 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private float _moveSpeed;
     [SerializeField] private Transform _leftFoot, _rightFoot, _leftEye, _rightEye;
     [SerializeField] private Rigidbody2D _rb2D;
+    [SerializeField] private SpriteRenderer _spriteRenderer;
 
     private EnemyCollisionCheck _collisionCheck;
     private WorldObjectsCycleDisplay _display;
@@ -42,6 +43,7 @@ public class EnemyMovement : MonoBehaviour
                 _collisionCheck.WallRayOrigin = _collisionCheck.WallRayOrigin == _leftEye ? _rightEye : _leftEye;
                 _collisionCheck.WallRayDir = _collisionCheck.WallRayOrigin == _leftEye ? new Vector2(-1, 0) : new Vector2(1, 0);
                 _collisionCheck.GroundRayOrigin = _collisionCheck.GroundRayOrigin == _leftFoot ? _rightFoot : _leftFoot;
+                _spriteRenderer.flipX = !_spriteRenderer.flipX;
             }
         }
         else
