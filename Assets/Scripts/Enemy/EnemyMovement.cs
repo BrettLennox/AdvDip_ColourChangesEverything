@@ -36,20 +36,25 @@ public class EnemyMovement : MonoBehaviour
 
             if (!_collisionCheck.IsGrounded)
             {
-                _collisionCheck.GroundRayOrigin = _collisionCheck.GroundRayOrigin == _leftFoot ? _rightFoot : _leftFoot;
+                FlipDirection();
             }
             if (_collisionCheck.HitWall)
             {
-                _collisionCheck.WallRayOrigin = _collisionCheck.WallRayOrigin == _leftEye ? _rightEye : _leftEye;
-                _collisionCheck.WallRayDir = _collisionCheck.WallRayOrigin == _leftEye ? new Vector2(-1, 0) : new Vector2(1, 0);
-                _collisionCheck.GroundRayOrigin = _collisionCheck.GroundRayOrigin == _leftFoot ? _rightFoot : _leftFoot;
-                _spriteRenderer.flipX = !_spriteRenderer.flipX;
+                FlipDirection();
             }
         }
         else
         {
-            _rb2D.bodyType = RigidbodyType2D.Kinematic;
+            _rb2D.bodyType = RigidbodyType2D.Static;
         }
+    }
+
+    private void FlipDirection()
+    {
+        _collisionCheck.WallRayOrigin = _collisionCheck.WallRayOrigin == _leftEye ? _rightEye : _leftEye;
+        _collisionCheck.WallRayDir = _collisionCheck.WallRayOrigin == _leftEye ? new Vector2(-1, 0) : new Vector2(1, 0);
+        _collisionCheck.GroundRayOrigin = _collisionCheck.GroundRayOrigin == _leftFoot ? _rightFoot : _leftFoot;
+        _spriteRenderer.flipX = !_spriteRenderer.flipX;
     }
 
     private Vector2 MoveDir()

@@ -26,22 +26,22 @@ public class ChooseColour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (Input.GetMouseButtonDown(0))
         {
             SetColour(Colours.Red);
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
+        if (Input.GetMouseButtonDown(1))
         {
             SetColour( Colours.Yellow);
         }
-        if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            SetColour(Colours.Green);
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha4))
-        {
-            SetColour(Colours.Blue);
-        }
+        //if (Input.GetKeyDown(KeyCode.Alpha3))
+        //{
+        //    SetColour(Colours.Green);
+        //}
+        //if (Input.GetKeyDown(KeyCode.Alpha4))
+        //{
+        //    SetColour(Colours.Blue);
+        //}
     }
 
     private void SetColour(Colours colour)

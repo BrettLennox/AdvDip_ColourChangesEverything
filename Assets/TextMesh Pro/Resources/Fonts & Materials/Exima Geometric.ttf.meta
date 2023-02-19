@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 6927feafffb3c0f4896f0af3c12d3c85
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Exima Geometric
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 01b1fd57130c8a142a55dd088f0ced48, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

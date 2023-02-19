@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rb: {fileID: 1728981499309067947}
-  _jumpMultiplier: 31
+  _jumpMultiplier: 3.2
 --- !u!114 &4251709519408227422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -320,7 +320,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 1.5}
+  m_Size: {x: 0.5, y: 1.4}
   m_EdgeRadius: 0
 --- !u!50 &1728981499309067947
 Rigidbody2D:
