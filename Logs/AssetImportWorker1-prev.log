@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32681 MB
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32603 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/Brett/Documents/GitHub/Personal/AdvDip_ColourChangesEverything
+C:/Users/3ce64b7061da419e/Documents/GitHub/AdvDip_ColourChangesEverything
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58577
-Successfully changed project path to: C:/Users/Brett/Documents/GitHub/Personal/AdvDip_ColourChangesEverything
-C:/Users/Brett/Documents/GitHub/Personal/AdvDip_ColourChangesEverything
+54618
+Successfully changed project path to: C:/Users/3ce64b7061da419e/Documents/GitHub/AdvDip_ColourChangesEverything
+C:/Users/3ce64b7061da419e/Documents/GitHub/AdvDip_ColourChangesEverything
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,109 +47,227 @@ C:/Users/Brett/Documents/GitHub/Personal/AdvDip_ColourChangesEverything
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18492] Host "[IP] 192.168.20.15 [Port] 0 [Flags] 2 [Guid] 1439247519 [EditorId] 1439247519 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SG1H81B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1368] Host "[IP] 172.27.4.86 [Port] 0 [Flags] 2 [Guid] 957421277 [EditorId] 957421277 [Version] 1048832 [Id] WindowsEditor(7,NS00J004022DE09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18492] Host "[IP] 192.168.20.15 [Port] 0 [Flags] 2 [Guid] 1439247519 [EditorId] 1439247519 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SG1H81B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1368] Host "[IP] 172.27.4.86 [Port] 0 [Flags] 2 [Guid] 957421277 [EditorId] 957421277 [Version] 1048832 [Id] WindowsEditor(7,NS00J004022DE09) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 90.64 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 84.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Brett/Documents/GitHub/Personal/AdvDip_ColourChangesEverything/Assets
+[Subsystems] Discovering subsystems at path C:/Users/3ce64b7061da419e/Documents/GitHub/AdvDip_ColourChangesEverything/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Renderer: NVIDIA Quadro P2000 (ID=0x1c30)
     Vendor:   NVIDIA
-    VRAM:     8031 MB
-    Driver:   31.0.15.2849
+    VRAM:     5032 MB
+    Driver:   31.0.15.1737
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009527 seconds.
+Registered in 0.005626 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 84.07 ms, found 4 plugins.
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 226 ms
+Refreshing native plugins compatible for Editor in 86.31 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.629 seconds
+- Completed reload, in  0.834 seconds
 Domain Reload Profiling:
-	ReloadAssembly (629ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (835ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (442ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (668ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (102ms)
+			SetupTypeCache (97ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (264ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (502ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (297ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
+				RefreshPlugins (86ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (125ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007387 seconds.
+Registered in 0.005678 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Brett\Documents\GitHub\Personal\AdvDip_ColourChangesEverything\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Brett\Documents\GitHub\Personal\AdvDip_ColourChangesEverything\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\3ce64b7061da419e\Documents\GitHub\AdvDip_ColourChangesEverything\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\3ce64b7061da419e\Documents\GitHub\AdvDip_ColourChangesEverything\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 83.49 ms, found 4 plugins.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 87.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.100 seconds
+- Completed reload, in  1.017 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1101ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (1018ms)
+		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (876ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (820ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (226ms)
+			SetupTypeCache (229ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (444ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (410ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (214ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3761 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (56.6 KB). Loaded Objects now: 4222.
-Memory consumption went from 145.3 MB to 145.2 MB.
-Total: 3.632100 ms (FindLiveObjects: 0.403200 ms CreateObjectMapping: 0.101600 ms MarkObjects: 3.020500 ms  DeleteObjects: 0.105300 ms)
+Unloading 3760 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (56.2 KB). Loaded Objects now: 4222.
+Memory consumption went from 145.2 MB to 145.1 MB.
+Total: 2.859100 ms (FindLiveObjects: 0.263100 ms CreateObjectMapping: 0.191100 ms MarkObjects: 2.342300 ms  DeleteObjects: 0.061900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005537 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\3ce64b7061da419e\Documents\GitHub\AdvDip_ColourChangesEverything\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\3ce64b7061da419e\Documents\GitHub\AdvDip_ColourChangesEverything\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.912 seconds
+Domain Reload Profiling:
+	ReloadAssembly (913ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (712ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3736 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.8 KB). Loaded Objects now: 4225.
+Memory consumption went from 143.1 MB to 143.0 MB.
+Total: 3.740400 ms (FindLiveObjects: 0.271200 ms CreateObjectMapping: 0.209200 ms MarkObjects: 3.233800 ms  DeleteObjects: 0.025000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005179 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\3ce64b7061da419e\Documents\GitHub\AdvDip_ColourChangesEverything\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\3ce64b7061da419e\Documents\GitHub\AdvDip_ColourChangesEverything\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Domain Reload Profiling:
+	ReloadAssembly (903ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (703ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3736 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 4228.
+Memory consumption went from 142.7 MB to 142.7 MB.
+Total: 2.570300 ms (FindLiveObjects: 0.251600 ms CreateObjectMapping: 0.190300 ms MarkObjects: 2.105200 ms  DeleteObjects: 0.022500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,184 +281,475 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 178684.837139 seconds.
-  path: Assets/Art/idle/idle-4.png
-  artifactKey: Guid(2d414b37f3de74d2494564eb6ca8b8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/idle/idle-4.png using Guid(2d414b37f3de74d2494564eb6ca8b8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd314db25a1a19ea105a29c41613710') in 0.097667 seconds 
+  Time since last request: 2262.390953 seconds.
+  path: Assets/Art/mouse-left-click-transparent.png
+  artifactKey: Guid(4352d90aa12beb84584e2c2511f13b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/mouse-left-click-transparent.png using Guid(4352d90aa12beb84584e2c2511f13b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283b20dc888b961eaac688dbfc883777') in 0.064282 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005088 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\3ce64b7061da419e\Documents\GitHub\AdvDip_ColourChangesEverything\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\3ce64b7061da419e\Documents\GitHub\AdvDip_ColourChangesEverything\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.891 seconds
+Domain Reload Profiling:
+	ReloadAssembly (891ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (701ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3736 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 4234.
+Memory consumption went from 142.8 MB to 142.8 MB.
+Total: 2.731200 ms (FindLiveObjects: 0.262500 ms CreateObjectMapping: 0.181100 ms MarkObjects: 2.264500 ms  DeleteObjects: 0.022600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005245 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\3ce64b7061da419e\Documents\GitHub\AdvDip_ColourChangesEverything\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\3ce64b7061da419e\Documents\GitHub\AdvDip_ColourChangesEverything\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Domain Reload Profiling:
+	ReloadAssembly (965ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (754ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (305ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3736 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 4237.
+Memory consumption went from 142.8 MB to 142.8 MB.
+Total: 2.887000 ms (FindLiveObjects: 0.253300 ms CreateObjectMapping: 0.148800 ms MarkObjects: 2.462800 ms  DeleteObjects: 0.021400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.943039 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/hurt/hurt.png
-  artifactKey: Guid(538fb37dc7b7b41d694e78e801f89a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/hurt/hurt.png using Guid(538fb37dc7b7b41d694e78e801f89a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f857f8bd166fcf08b0ae41485baf3a9') in 0.021584 seconds 
+  Time since last request: 431.598268 seconds.
+  path: Assets/_IMPORTS/Super Grotto Escape/Environment/back.png
+  artifactKey: Guid(f4ee95c3f4299e44087fc9e4c6bf4b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_IMPORTS/Super Grotto Escape/Environment/back.png using Guid(f4ee95c3f4299e44087fc9e4c6bf4b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b467ba49e49d00f0f9ac47e7e81118') in 0.124438 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.323438 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/misc/enemy-explosion/enemy-explosion-2.png
-  artifactKey: Guid(e4816b76c47974b188075a4a37fbe55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/misc/enemy-explosion/enemy-explosion-2.png using Guid(e4816b76c47974b188075a4a37fbe55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6785dceeacc5fc6e8751d274cc4d9bd') in 0.017426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/misc/enemy-explosion/enemy-explosion-4.png
-  artifactKey: Guid(b5fe33b9056c44d249e9b8fc43b6dd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/misc/enemy-explosion/enemy-explosion-4.png using Guid(b5fe33b9056c44d249e9b8fc43b6dd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a5cddf99ee0d6bbe9e245610ec9ba4') in 0.015448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/misc/drone/drone-4.png
-  artifactKey: Guid(f579fd21158db4b9caa8430de17d94e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/misc/drone/drone-4.png using Guid(f579fd21158db4b9caa8430de17d94e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4cfaf3ae6a0e7a2c0ca919e13aaff9') in 0.014176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/misc/enemy-explosion/enemy-explosion-5.png
-  artifactKey: Guid(afb130b24c5274a6182bb53c0d12e23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/misc/enemy-explosion/enemy-explosion-5.png using Guid(afb130b24c5274a6182bb53c0d12e23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7dba079001315c90fe3903e5341b7a') in 0.025320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/misc/enemy-explosion/enemy-explosion-3.png
-  artifactKey: Guid(7ef35a73885d14f1ab8f0925880a2af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/misc/enemy-explosion/enemy-explosion-3.png using Guid(7ef35a73885d14f1ab8f0925880a2af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a58a1e4475fb24a4070abf5d95101e8') in 0.020855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/crouch/crouch.png
-  artifactKey: Guid(be66b0319e1ce42139de849803d194a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/crouch/crouch.png using Guid(be66b0319e1ce42139de849803d194a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4920e424b15269e65d3d73b29768026') in 0.015018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008474 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/climb/climb-5.png
-  artifactKey: Guid(173ee918bf9b445909661624036c3bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/climb/climb-5.png using Guid(173ee918bf9b445909661624036c3bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7348cd05742f973d1347bcc7bfe0cc2') in 0.021003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/control-box-2.png
-  artifactKey: Guid(d886ba9ea1c0747f48bd6188b513f837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/control-box-2.png using Guid(d886ba9ea1c0747f48bd6188b513f837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285cea4a45ee684c580776de27b18eaa') in 0.020109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-side/banner-side-2.png
-  artifactKey: Guid(9b3027d3d57a94a07b8aed183f1dbfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-side/banner-side-2.png using Guid(9b3027d3d57a94a07b8aed183f1dbfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b37f56397279fa181b7a27b4a0553d') in 0.025290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/back-jump/back-jump-4.png
-  artifactKey: Guid(6cc3fb510e8ba4969aae8867dd99e326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/back-jump/back-jump-4.png using Guid(6cc3fb510e8ba4969aae8867dd99e326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22bcfd17cafaebb979b1859e17500ee') in 0.022358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-big/banner-big-1.png
-  artifactKey: Guid(4db7d20bea57942e9bc03f26f30c64a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-big/banner-big-1.png using Guid(4db7d20bea57942e9bc03f26f30c64a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba206603d4f21e570c5f984718a1fd0') in 0.021165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/back-jump/back-jump-3.png
-  artifactKey: Guid(d185b83f6152c4721a8aa7ea4c529123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/back-jump/back-jump-3.png using Guid(d185b83f6152c4721a8aa7ea4c529123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45c09970cad14da3821ec8804a215b6') in 0.024167 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-arrow.png
-  artifactKey: Guid(f87454e6f046e4340b8ae4c03ebfa016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-arrow.png using Guid(f87454e6f046e4340b8ae4c03ebfa016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc92c8c8393e3e18352b971eda1eebfc') in 0.022992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-side/banner-side-1.png
-  artifactKey: Guid(1423971c298b64565ac2014b97a82662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-side/banner-side-1.png using Guid(1423971c298b64565ac2014b97a82662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a186177b9046fd9cb8f62a8e858b25') in 0.016686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-open.png
-  artifactKey: Guid(a9a2edcef3323439bbd444f77e2c66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-open.png using Guid(a9a2edcef3323439bbd444f77e2c66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb5d6cb41aa79102d1408411367e2f7') in 0.021944 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/back-jump/back-jump-2.png
+  artifactKey: Guid(00e93ca0cc2c747c5814543f3f40d110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/back-jump/back-jump-2.png using Guid(00e93ca0cc2c747c5814543f3f40d110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e698af4137e991b9532c1c6c5383d80') in 0.012725 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/back-jump/back-jump-5.png
-  artifactKey: Guid(af6b4020d525741d586a7fe3778dfd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/back-jump/back-jump-5.png using Guid(af6b4020d525741d586a7fe3778dfd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8c132b5d465a821b4ba4a446eafe72') in 0.015032 seconds 
+  path: Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/back-jump/back-jump-1.png
+  artifactKey: Guid(6bcff3fdeea55447d8b185465a8a7d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/back-jump/back-jump-1.png using Guid(6bcff3fdeea55447d8b185465a8a7d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd676cef5c4fde16777ea03b51f900d9') in 0.011991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.437920 seconds.
+  path: Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/background/near-buildings-bg.png
+  artifactKey: Guid(8be56079f98104befaf15e67184d36f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/background/near-buildings-bg.png using Guid(8be56079f98104befaf15e67184d36f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb21f83745e3c8d9f0d50d80e6611ed') in 0.019281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ok.png
+  artifactKey: Guid(3238dca1e9ea9fb4aa64b28298ba6dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ok.png using Guid(3238dca1e9ea9fb4aa64b28298ba6dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a72dc4b11a6454ac582d4f3ab5b30d0') in 0.012857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.902686 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Mesh@3x.png
+  artifactKey: Guid(2d95cf258837ba44896030e25b9f2dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Mesh@3x.png using Guid(2d95cf258837ba44896030e25b9f2dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44574e5c62902e459af76b52ce23e6db') in 0.014882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.200548 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Light/Layers Separated@1x.png
+  artifactKey: Guid(7d9554fa1b4bb4fe9a5b1248eaa02ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Light/Layers Separated@1x.png using Guid(7d9554fa1b4bb4fe9a5b1248eaa02ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d80a94e20e57c41e4b8f10fbf3a2195') in 0.015898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Light/Layers Separated@4x.png
+  artifactKey: Guid(a4a8b6ebb023f4786b192a65f264a697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Light/Layers Separated@4x.png using Guid(a4a8b6ebb023f4786b192a65f264a697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857a2f4063885b424be3096f5c327b63') in 0.015936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconcheckedoutlocaloverlay@2x.png
+  artifactKey: Guid(3999034958d54364da380a8839a11050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconcheckedoutlocaloverlay@2x.png using Guid(3999034958d54364da380a8839a11050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3998ae25ec3c8fc0ef5c3bb5300cdf71') in 0.017010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Visibility_Tool.png
+  artifactKey: Guid(ac4a94776fb2dd74a910bef3649b5c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Visibility_Tool.png using Guid(ac4a94776fb2dd74a910bef3649b5c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087c23c0c5b22a73a1f357ef2dff2b52') in 0.013938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconundo.png
+  artifactKey: Guid(691dc543ff5b9ca44bf846657ba04161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconundo.png using Guid(691dc543ff5b9ca44bf846657ba04161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53df0fe2b13b5bbe430537ae0788fd1a') in 0.012850 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-big/banner-big-3.png
-  artifactKey: Guid(0a6ca078b274e43859b20657ebda9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-big/banner-big-3.png using Guid(0a6ca078b274e43859b20657ebda9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8144aa2839e7dd2d81e0868c02bf67c9') in 0.015503 seconds 
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_ignoredoverlay@2x.png
+  artifactKey: Guid(68fafd0a2acc3774988418f657bf7b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_ignoredoverlay@2x.png using Guid(68fafd0a2acc3774988418f657bf7b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9dd29b1241d65dbbc95356db712ea1e') in 0.013207 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/back-jump/back-jump-6.png
-  artifactKey: Guid(543a751d492224d75b38c817e173720c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/back-jump/back-jump-6.png using Guid(543a751d492224d75b38c817e173720c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f371a6f635fd62be6dea3927bd4db175') in 0.021152 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Edit_Joints.png
+  artifactKey: Guid(8c3235661573d7b44bd864536f83d0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Edit_Joints.png using Guid(8c3235661573d7b44bd864536f83d0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c574afb8847818a1fc88eba78cf7f38a') in 0.012603 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/climb/climb-3.png
-  artifactKey: Guid(acac7b63789b44ec7933ec438a2b2443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/climb/climb-3.png using Guid(acac7b63789b44ec7933ec438a2b2443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce161e48bafd3f07c07dcbb61a5f8721') in 0.016753 seconds 
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail.png
+  artifactKey: Guid(3086d66a563317b40a20a20da2c64ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail.png using Guid(3086d66a563317b40a20a20da2c64ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'becd768be98d51480775a491d4b5ff0c') in 0.013250 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-neon/banner-neon-1.png
-  artifactKey: Guid(651479cc07fa5423fb129d992873995b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-neon/banner-neon-1.png using Guid(651479cc07fa5423fb129d992873995b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71046b09e0c86b49521299ca693709a3') in 0.016293 seconds 
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy@4x.png
+  artifactKey: Guid(5430b5412bcac5b4986be0a875a5e978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy@4x.png using Guid(5430b5412bcac5b4986be0a875a5e978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25a549fca3a8461d3ca4154deb25e93') in 0.012961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_IMPORTS/Super Grotto Escape/Props/crate.png
+  artifactKey: Guid(d75b89fc885d00645812403d4721dc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_IMPORTS/Super Grotto Escape/Props/crate.png using Guid(d75b89fc885d00645812403d4721dc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73ba95409144f19048f2334fe67a91a') in 0.013766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@3x.png
+  artifactKey: Guid(dcea51d6065d64246aeec467afeff684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/character_Mode@3x.png using Guid(dcea51d6065d64246aeec467afeff684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257015ec9675053b870a0829b71ecbe0') in 0.013469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuho.png
+  artifactKey: Guid(e5600378dd761e64d9423790c482bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_cloudbuho.png using Guid(e5600378dd761e64d9423790c482bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604f6cf0177041cd221b17e5eb70d931') in 0.019715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode.png
+  artifactKey: Guid(d4d64a6cd9624c34a815dd79fb2a20a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode.png using Guid(d4d64a6cd9624c34a815dd79fb2a20a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bbb526b38785b638816562541fc62b') in 0.012953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight_Light.psd
+  artifactKey: Guid(e05ace3bd15740cda0bad60d89092a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight_Light.psd using Guid(e05ace3bd15740cda0bad60d89092a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2607840a0abf8cc762ea3f8e5eac42f3') in 0.015345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_IMPORTS/Super Grotto Escape/Characters/Enemies/Bat/bat5.png
+  artifactKey: Guid(6cbf6cf5bbc66974fa3ee21a77c62b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_IMPORTS/Super Grotto Escape/Characters/Enemies/Bat/bat5.png using Guid(6cbf6cf5bbc66974fa3ee21a77c62b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2262f69e1190db92a091fe818039bab5') in 0.013574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_IMPORTS/Super Grotto Escape/Fx/Big-Explosion/big-explosion5.png
+  artifactKey: Guid(e7ee4ecb1fd5d344aa09cf7e23c1c726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_IMPORTS/Super Grotto Escape/Fx/Big-Explosion/big-explosion5.png using Guid(e7ee4ecb1fd5d344aa09cf7e23c1c726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e317b761105af619a45a056e3e9ebda') in 0.014987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-big/banner-big-3.png
+  artifactKey: Guid(0a6ca078b274e43859b20657ebda9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-big/banner-big-3.png using Guid(0a6ca078b274e43859b20657ebda9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80403dd13c4614dcb4142f3ef9de1887') in 0.016988 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-coke/banner-coke-2.png
-  artifactKey: Guid(c3b5f35ae691e4d719d7c458b48c7c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-coke/banner-coke-2.png using Guid(c3b5f35ae691e4d719d7c458b48c7c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc378034b531d5d65350e9b45fb8a10') in 0.016002 seconds 
+  path: Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-big/banner-big-2.png
+  artifactKey: Guid(55e98b85e57fe472fa74b40d9b61538b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-big/banner-big-2.png using Guid(55e98b85e57fe472fa74b40d9b61538b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b296a3a3e9f477f9bdbe068dd4a0160') in 0.013687 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-coke/banner-coke-1.png
-  artifactKey: Guid(88271ef8cb2f844a59750124ca3106a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-coke/banner-coke-1.png using Guid(88271ef8cb2f844a59750124ca3106a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d657e77c966af7134db1effb58c1ca5') in 0.016309 seconds 
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Light/Layers Separated@2x.png
+  artifactKey: Guid(9804e134a7b174b679f94a53e992ea60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Light/Layers Separated@2x.png using Guid(9804e134a7b174b679f94a53e992ea60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffabd3a61d02209bbe27ad6251423b3') in 0.011790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/d_Visibility_Tool@3x.png
+  artifactKey: Guid(46d5b7ee1aaae3c4d9fd3a54774428d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/d_Visibility_Tool@3x.png using Guid(46d5b7ee1aaae3c4d9fd3a54774428d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a506941b524406ec9c348e403394a90a') in 0.014835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_character_Mode@4x.png
+  artifactKey: Guid(395f6b9556f14704790df6035be6ee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_character_Mode@4x.png using Guid(395f6b9556f14704790df6035be6ee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32adb540a39d4f268a93b0612495c35') in 0.014873 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-neon/banner-neon-2.png
-  artifactKey: Guid(724ba19574b4b41399100a70044d62e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-neon/banner-neon-2.png using Guid(724ba19574b4b41399100a70044d62e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4e0c9dc5271d8a15c02fee95bcb771') in 0.014832 seconds 
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Edit_Joints@2x.png
+  artifactKey: Guid(eecbc6949fc2aac40bfe64caade7a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Edit_Joints@2x.png using Guid(eecbc6949fc2aac40bfe64caade7a594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efbfd0169bcb6db52c8bcd67f074110') in 0.016584 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/climb/climb-2.png
-  artifactKey: Guid(0b6064e4b1ec84dea8b329201189541b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/climb/climb-2.png using Guid(0b6064e4b1ec84dea8b329201189541b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26a7806addeabe42d8452dfa9ac42f0') in 0.017427 seconds 
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy@2x.png
+  artifactKey: Guid(6cc5103edc9f0dd4f80e8274c73dfeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy@2x.png using Guid(6cc5103edc9f0dd4f80e8274c73dfeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8a907d313f841e178e38d50839f9c3') in 0.012677 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/climb/climb-6.png
-  artifactKey: Guid(23f434866843c4f52a434b6996a38df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/climb/climb-6.png using Guid(23f434866843c4f52a434b6996a38df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c14a129303b0735c7445e519fa97f2') in 0.021129 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy@2x.png
+  artifactKey: Guid(2e0cf451cb3d56742aad87ea75993209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Copy@2x.png using Guid(2e0cf451cb3d56742aad87ea75993209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb104bca39935eb13b5fff3b7629a54') in 0.008984 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-scroll/banner-scroll-1.png
-  artifactKey: Guid(4f540a6a2b820425d909a84e4650a499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-scroll/banner-scroll-1.png using Guid(4f540a6a2b820425d909a84e4650a499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8969833b9dc08e2b6bbd908f3c07ed87') in 0.019658 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005635 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\3ce64b7061da419e\Documents\GitHub\AdvDip_ColourChangesEverything\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\3ce64b7061da419e\Documents\GitHub\AdvDip_ColourChangesEverything\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.101 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1101ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (840ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (376ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3736 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.8 KB). Loaded Objects now: 4268.
+Memory consumption went from 147.2 MB to 147.1 MB.
+Total: 4.913900 ms (FindLiveObjects: 0.348700 ms CreateObjectMapping: 0.312900 ms MarkObjects: 4.217000 ms  DeleteObjects: 0.034100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/back-jump/back-jump-1.png
-  artifactKey: Guid(6bcff3fdeea55447d8b185465a8a7d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/SPRITES/player/back-jump/back-jump-1.png using Guid(6bcff3fdeea55447d8b185465a8a7d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5754bdb518348ec3a639ad3e4e45491') in 0.017212 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005840 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\3ce64b7061da419e\Documents\GitHub\AdvDip_ColourChangesEverything\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\3ce64b7061da419e\Documents\GitHub\AdvDip_ColourChangesEverything\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.089 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1089ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (866ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (350ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3736 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 4271.
+Memory consumption went from 147.2 MB to 147.2 MB.
+Total: 2.548100 ms (FindLiveObjects: 0.258200 ms CreateObjectMapping: 0.188300 ms MarkObjects: 2.080300 ms  DeleteObjects: 0.020700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-side/banner-side-3.png
-  artifactKey: Guid(5420c579b50cd47158e6c73fdad1bd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_IMPORTS/Warped City Assets/Artwork/ENVIRONMENT/props/banner-side/banner-side-3.png using Guid(5420c579b50cd47158e6c73fdad1bd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766132e9ee371ffaa36c1f86e67a3b29') in 0.016825 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005673 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\3ce64b7061da419e\Documents\GitHub\AdvDip_ColourChangesEverything\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\3ce64b7061da419e\Documents\GitHub\AdvDip_ColourChangesEverything\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.084 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1085ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (829ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3736 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 4274.
+Memory consumption went from 147.2 MB to 147.2 MB.
+Total: 4.424400 ms (FindLiveObjects: 0.328100 ms CreateObjectMapping: 0.373600 ms MarkObjects: 3.686600 ms  DeleteObjects: 0.034800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
