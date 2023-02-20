@@ -28,6 +28,10 @@ public class CheckpointManager : MonoBehaviour
             {
                 _checkpoints.Add(checkpoint);
                 checkpoint.GetComponent<Checkpoint>().CheckpointIndex = _checkpoints.Count - 1;
+                if(_checkpoints.Count == 1)
+                {
+                    checkpoint.GetComponent<Collider2D>().enabled = false;
+                }
             }
         }
     }
